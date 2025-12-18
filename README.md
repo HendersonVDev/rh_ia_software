@@ -44,6 +44,16 @@ O foco sempre foi evolução técnica real, e não apenas entrega
 
 Este processo resultou em um ganho significativo de aprendizado prático, especialmente em integração de serviços, processamento de dados não estruturados e organização de informações para dashboards administrativos.
 
+<h2>🔐 Tela de Login</h2>
+<img src="assets/readme/login.jpg" alt="Tela de Login" width="900">
+
+<h2>📊 Dashboard Administrativo</h2>
+<img src="assets/readme/dashboard.jpg" alt="Dashboard RH" width="900">
+
+<h2>📄 Detalhes do Candidato</h2>
+<img src="assets/readme/detalhes.jpg" alt="Detalhes do Candidato" width="900">
+
+
 🖥️ Funcionalidades
 
 Leitura de currículos enviados por e-mail (IMAP)
