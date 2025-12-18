@@ -1,0 +1,114 @@
+# ===============================
+# SISTEMA / OS
+# ===============================
+*.log
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===============================
+# AMBIENTE / SEGURANÇA
+# ===============================
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# ===============================
+# DEPENDÊNCIAS
+# ===============================
+/vendor/
+/node_modules/
+
+# ===============================
+# BUILD / FRONTEND
+# ===============================
+/public/build/
+/public/hot/
+/public/storage/
+
+# ===============================
+# STORAGE / DADOS SENSÍVEIS
+# ===============================
+/storage/*.key
+/storage/pail
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/storage/debugbar/*
+/storage/app/private/*
+/storage/app/imap-attachments/*
+/storage/app/tmp/*
+/storage/app/ai-cache/*
+/storage/app/resumes/*
+/storage/app/uploads/*
+!/storage/framework/.gitignore
+
+# ===============================
+# FILAS / JOBS / AUTOMAÇÕES
+# ===============================
+/app/Jobs/*
+!/app/Jobs/README.md
+!/app/Jobs/*Stub.php
+
+/app/Console/Commands/*
+!/app/Console/Commands/README.md
+
+# ===============================
+# CONFIGURAÇÕES SENSÍVEIS
+# ===============================
+/config/services.php
+/config/queue.php
+/config/horizon.php
+
+# ===============================
+# TESTES / CACHE
+# ===============================
+.phpunit.result.cache
+/.phpunit.cache
+coverage/
+.nyc_output/
+
+# ===============================
+# IDEs / EDITORES
+# ===============================
+/.idea/
+/.fleet/
+/.nova/
+/.vscode/
+/.zed/
+.phpactor.json
+
+# ===============================
+# LARAVEL / DEV LOCAL
+# ===============================
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+Homestead.json
+Homestead.yaml
+docker-compose.override.yml
+
+# ===============================
+# DOCUMENTAÇÃO LOCAL
+# ===============================
+/docs/private/
+/notes/
+/*.todo
+
+# ===============================
+# BACKUPS
+# ===============================
+*.backup
+*.bak
+*.old
+*.tmp
+*.swp
+*.swo
